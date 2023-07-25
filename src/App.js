@@ -6,20 +6,23 @@ import Portfolio from './containers/portfolio';
 import Skills from './containers/skills';
 import Contact from './containers/contact';
 import Navbar from './components/navBar';
+import './App.scss';
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className='app'>
         <Navbar />
-        <Routes>
-          <Route index path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/resume' element={<Resume />} />
-          <Route path='/skills' element={<Skills />} />
-          <Route path='/portfolio' element={<Portfolio />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
+        <div className='app__main-page-content'>
+          <Routes>
+            <Route index path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/resume' element={<Resume />} />
+            <Route path='/skills' element={<Skills />} />
+            <Route path='/portfolio' element={<Portfolio />} />
+            <Route path='/contact' element={<Contact />} />
+          </Routes>
+        </div>
       </div>
     </Router>
   );
