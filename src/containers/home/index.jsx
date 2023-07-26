@@ -33,8 +33,8 @@ const Home = () => {
           play={true}
           duration={1.5}
           delay={1}
-          start={{ transform: `translateY(550px)`, }}
-          end={{ transform: `translatex(0px)` }}
+          start={{ transform: `translateY(550px)`}}
+          end={{ transform: `translatex(0px)`}}
         >
           <div className='home__contact-me'>
             <button onClick={handleNavigateToPortfolioPage}>
