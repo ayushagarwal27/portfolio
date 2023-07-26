@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsInfoCircleFill } from 'react-icons/bs';
-import { SiNextdotjs, SiThreedotjs} from 'react-icons/si';
+import { SiNextdotjs, SiThreedotjs } from 'react-icons/si';
 import { FaReact, FaMobile } from 'react-icons/fa';
 import { Animate } from 'react-simple-animate';
 import PageHeader from '../../components/pageHeaderContent';
@@ -44,7 +44,7 @@ const About = () => {
           <Animate
             play={true}
             duration={1.5}
-            delay={1}
+            delay={0.5}
             start={{ transform: `translateX(-900px)` }}
             end={{ transform: `translatex(0px)` }}
           >
@@ -54,9 +54,9 @@ const About = () => {
           <Animate
             play={true}
             duration={1.5}
-            delay={1}
-            start={{ transform: `translateX(500px)` }}
-            end={{ transform: `translatex(0px)` }}
+            delay={0.5}
+            start={{ transform: `translateX(500px)`, opacity: 0 }}
+            end={{ transform: `translatex(0px)`, opacity: 1  }}
           >
             <h3 className='personalInformationHeaderText'>
               Personal Information

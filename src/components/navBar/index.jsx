@@ -6,10 +6,10 @@ import './styles.scss';
 
 const links = [
   { label: 'Home', to: '/' },
+  { label: 'About me', to: '/about' },
   { label: 'Skills', to: '/skills' },
   { label: 'Portfolio', to: '/portfolio' },
   { label: 'Contact', to: '/contact' },
-  { label: 'About me', to: '/about' },
   { label: 'Resume', to: '/resume' },
 ];
 
