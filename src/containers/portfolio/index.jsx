@@ -4,9 +4,16 @@ import PageHeader from '../../components/pageHeaderContent';
 import hauntedHouse from '../../images/haunted-house.png';
 import footballClub from '../../images/football-club.png';
 import threeJsProfile from '../../images/threejs-profile.png';
+import appleReDesign from '../../images/apple-redesign.png';
 import './styles.scss';
 
 const portfolioData = [
+  {
+    id: 1,
+    name: 'Apple Re-design',
+    image: appleReDesign,
+    link: '',
+  },
   {
     id: 3,
     name: 'Haunted House',
@@ -22,7 +29,7 @@ const portfolioData = [
   {
     id: 3,
     name: 'ThreeJS Profile',
-    image:threeJsProfile,
+    image: threeJsProfile,
     link: '',
   },
   {
@@ -113,8 +120,12 @@ const Portfolio = () => {
                   <div class='overlay__box'>
                     <p>{item.name}</p>
                     <div>
-                      <button>Visit</button>
-                      <button>Code</button>
+                      <a href={item.link} target='_blank' rel='noreferrer'>
+                        Visit
+                      </a>
+                      <a href={item.link} target='_blank' rel='noreferrer'>
+                        Code
+                      </a>
                     </div>
                   </div>
                 )}

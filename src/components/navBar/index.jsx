@@ -30,7 +30,11 @@ const Navbar = () => {
       <ul className={`navbar__container__menu ${toggleIcon ? 'active' : ''}`}>
         {links.map(link => (
           <li className='navbar__container__menu__item' key={link.label}>
-            <Link to={link.to} className='navbar__container__menu__item__link'>
+            <Link
+              to={link.to}
+              className='navbar__container__menu__item__link'
+              onClick={() => setToggleIcon(false)}
+            >
               {link.label}
             </Link>
           </li>

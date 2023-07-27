@@ -22,7 +22,7 @@
 
         &.active {
           background: var(--theme-main-color);
-          color: var(--theme-sub-text-color);
+          color: var(--theme-background-color);
           font-weight: 600;
           border-radius: 25px;
         }
@@ -38,7 +38,7 @@
 
       &__item {
         height: 366px;
-        cursor: pointer;
+        // cursor: pointer;
         position: relative;
         border-radius: 10px;
         overflow: hidden;
@@ -58,6 +58,7 @@
               height: inherit;
               object-fit: cover;
               width: 100%;
+              object-position:center
             }
           }
         }
@@ -97,8 +98,10 @@
               gap: 10px;
               justify-content: center;
 
-              button {
+              a {
                 cursor: pointer;
+                text-decoration: none;
+                display:block;
                 margin-top: 15px;
                 padding: 10px 0px;
                 font-size: 2rem;
@@ -108,6 +111,12 @@
                 border-radius: 4px;
                 font-weight: 500;
                 width: 100px;
+                border-radius: 8px;
+              }
+
+              a:hover{
+                transform: translateY(-2px);
+                box-shadow: 0px 1px 0px var(--theme-background-color);;
               }
             }
           }
@@ -158,7 +167,7 @@
           }
 
           div {
-            button {
+            a {
               font-size: 1.5rem;
             }
           }
