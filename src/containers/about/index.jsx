@@ -9,28 +9,36 @@ import './styles.scss';
 const personalDetails = [
   {
     label: 'Name',
-    value: 'John Doe',
+    value: 'Ayush Agarwal',
   },
   {
-    label: 'Age',
-    value: '27',
+    label: 'Github',
+    value: 'ayushagarwal27',
+    link: 'https://github.com/ayushagarwal27',
   },
   {
-    label: 'Address',
-    value: 'India',
+    label: 'Leetcode',
+    value: '_ayush027',
+    link: 'https://leetcode.com/_ayush027/',
+  },
+  {
+    label: 'Linkedin',
+    value: 'ayush027',
+    link: 'https://www.linkedin.com/in/ayush-agarwal-145a20166/',
+  },
+  {
+    label: 'Twitter',
+    value: 'ayushagarwal027',
+    link: 'https://twitter.com/ayushagarwal027',
   },
   {
     label: 'Email',
-    value: 'demo@example.com',
-  },
-  {
-    label: 'Contact No',
-    value: '+11 3456789056',
+    value: 'ayushagarwal.dev@gmail.com',
   },
 ];
 
 const jobSummary =
-  'Seasoned and independent Front End Developer with 5 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about aesthetics and UI design. It is imperative that you provide a thorough and professional approach to your resume. As a Front End Developer you will be judged by your ability to use UX and UI concepts and follow design guidelines. It is about expressing your attention to detail and how you can help implement design ideas for your future employer';
+  'Creative and independent Front End Developer with experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about aesthetics and UI design.';
 
 const About = () => {
   return (
@@ -56,7 +64,7 @@ const About = () => {
             duration={1.5}
             delay={0.5}
             start={{ transform: `translateX(500px)`, opacity: 0 }}
-            end={{ transform: `translatex(0px)`, opacity: 1  }}
+            end={{ transform: `translatex(0px)`, opacity: 1 }}
           >
             <h3 className='personalInformationHeaderText'>
               Personal Information
@@ -65,7 +73,13 @@ const About = () => {
               {personalDetails.map(item => (
                 <li key={item.label}>
                   <span className='title'>{item.label}</span>
-                  <span className='value'>{item.value}</span>
+                  {item.link ? (
+                   <a target='_blank' href={item.link} className='value' rel="noreferrer" >
+                      {item.value}
+                    </a>
+                  ) : (
+                    <span className='value'>{item.value}</span>
+                  )}
                 </li>
               ))}
             </ul>

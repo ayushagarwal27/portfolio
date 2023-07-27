@@ -5,47 +5,44 @@ import hauntedHouse from '../../images/haunted-house.png';
 import footballClub from '../../images/football-club.png';
 import threeJsProfile from '../../images/threejs-profile.png';
 import appleReDesign from '../../images/apple-redesign.png';
+import whiteboard from '../../images/whiteboard.png';
 import './styles.scss';
 
 const portfolioData = [
   {
     id: 1,
-    name: 'Apple Re-design',
-    image: appleReDesign,
-    link: '',
-  },
-  {
-    id: 3,
-    name: 'Haunted House',
-    image: hauntedHouse,
-    link: '',
+    name: 'Canvas Whiteboard',
+    image: whiteboard,
+    link: 'https://whitebaord.netlify.app/',
+    code:'https://github.com/ayushagarwal27/Whiteboard'
   },
   {
     id: 2,
     name: 'Manchester City',
     image: footballClub,
-    link: '',
+    link: 'https://football-club-546ab.web.app/',
+    code:'https://github.com/ayushagarwal27/Manchester-City-React'
+  },
+  {
+    id: 1,
+    name: 'Apple Re-design',
+    image: appleReDesign,
+    link: 'https://ayushagarwal27.github.io/Apple-Website/',
+    code:'https://github.com/ayushagarwal27/Apple-Website'
+  },
+  {
+    id: 3,
+    name: 'Haunted House',
+    image: hauntedHouse,
+    link: 'https://haunted-house-steel-sigma.vercel.app/',
+    code:'https://github.com/ayushagarwal27/Haunted-House-ThreeJS'
   },
   {
     id: 3,
     name: 'ThreeJS Profile',
     image: threeJsProfile,
-    link: '',
-  },
-  {
-    id: 2,
-    name: 'Todo App',
-    image:
-      'https://images.unsplash.com/photo-1690320276492-08823be529d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80',
-
-    link: '',
-  },
-  {
-    id: 3,
-    name: 'Shopping cart design',
-    image:
-      'https://images.unsplash.com/photo-1690320276492-08823be529d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80',
-    link: '',
+    link: 'https://ayush-threejs-profile.vercel.app/',
+    code:'https://github.com/ayushagarwal27/threejs-first-project'
   },
 ];
 
@@ -123,7 +120,7 @@ const Portfolio = () => {
                       <a href={item.link} target='_blank' rel='noreferrer'>
                         Visit
                       </a>
-                      <a href={item.link} target='_blank' rel='noreferrer'>
+                      <a href={item.code} target='_blank' rel='noreferrer'>
                         Code
                       </a>
                     </div>

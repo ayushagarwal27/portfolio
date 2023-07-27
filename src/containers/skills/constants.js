@@ -7,11 +7,11 @@ export const skillsData = [
         percentage: '90',
       },
       {
-        skillName: 'REACT NATIVE',
-        percentage: '60',
+        skillName: 'NEXT.JS',
+        percentage: '70',
       },
       {
-        skillName: 'NEXT.JS',
+        skillName: 'REACT NATIVE',
         percentage: '60',
       },
       
@@ -22,15 +22,15 @@ export const skillsData = [
     data: [
       {
         skillName: 'JAVASCRIPT',
-        percentage: '80',
+        percentage: '85',
       },
       {
         skillName: 'TYPESCRIPT',
-        percentage: '70',
+        percentage: '75',
       },
       {
         skillName: 'REDUX',
-        percentage: '70',
+        percentage: '80',
       },
     ],
   },

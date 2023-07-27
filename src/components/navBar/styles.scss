@@ -20,6 +20,10 @@
     &__logo {
       color: var(--theme-main-color);
       cursor: pointer;
+      font-size:2.5rem;
+      font-weight: 700;;
+      // font-style: italic;
+      text-decoration: none;
     }
 
     &__menu {
