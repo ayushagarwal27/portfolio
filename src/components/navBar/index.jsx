@@ -14,7 +14,11 @@ const links = [
     to: 'mailto:ayushagarwal.dev@gmail.com',
     type: 'redirect',
   },
-  { label: 'Resume', to: '/resume' },
+  {
+    label: 'Resume',
+    to: 'https://drive.google.com/file/d/1bhBnZeZkhnNjDlLMU5MvWkBJW8777sVe/view?usp=sharing',
+    type: 'redirect',
+  },
 ];
 
 const Navbar = () => {
@@ -38,7 +42,7 @@ const Navbar = () => {
               <a
                 href={link.to}
                 target='_blank'
-                rel="noreferrer"
+                rel='noreferrer'
                 className='navbar__container__menu__item__link'
                 onClick={() => setToggleIcon(false)}
               >
