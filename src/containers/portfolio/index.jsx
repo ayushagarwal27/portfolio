@@ -6,43 +6,51 @@ import footballClub from '../../images/football-club.png';
 import threeJsProfile from '../../images/threejs-profile.png';
 import appleReDesign from '../../images/apple-redesign.png';
 import whiteboard from '../../images/whiteboard.png';
+import spotify from '../../images/spotify.png';
 import './styles.scss';
 
 const portfolioData = [
+  {
+    id: 2,
+    name: 'Spotify Clone',
+    image: spotify,
+    link: 'https://spotify-clone-nextjs-13-4.vercel.app/',
+    code: 'https://github.com/ayushagarwal27/spotify-clone-nextjs-13.4',
+  },
   {
     id: 1,
     name: 'Canvas Whiteboard',
     image: whiteboard,
     link: 'https://whitebaord.netlify.app/',
-    code:'https://github.com/ayushagarwal27/Whiteboard'
+    code: 'https://github.com/ayushagarwal27/Whiteboard',
   },
   {
     id: 2,
     name: 'Manchester City',
     image: footballClub,
     link: 'https://football-club-546ab.web.app/',
-    code:'https://github.com/ayushagarwal27/Manchester-City-React'
+    code: 'https://github.com/ayushagarwal27/Manchester-City-React',
   },
   {
     id: 1,
     name: 'Apple Re-design',
     image: appleReDesign,
     link: 'https://ayushagarwal27.github.io/Apple-Website/',
-    code:'https://github.com/ayushagarwal27/Apple-Website'
+    code: 'https://github.com/ayushagarwal27/Apple-Website',
   },
   {
     id: 3,
     name: 'Haunted House',
     image: hauntedHouse,
     link: 'https://haunted-house-steel-sigma.vercel.app/',
-    code:'https://github.com/ayushagarwal27/Haunted-House-ThreeJS'
+    code: 'https://github.com/ayushagarwal27/Haunted-House-ThreeJS',
   },
   {
     id: 3,
     name: 'ThreeJS Profile',
     image: threeJsProfile,
     link: 'https://ayush-threejs-profile.vercel.app/',
-    code:'https://github.com/ayushagarwal27/threejs-first-project'
+    code: 'https://github.com/ayushagarwal27/threejs-first-project',
   },
 ];
 
