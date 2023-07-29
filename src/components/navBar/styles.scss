@@ -1,14 +1,14 @@
 .navbar {
-  // background-color: var(--theme-nav-background-color);
+  background-color: rgba(24, 24, 24,0.2);
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
-  top:0px;
+  top: 0px;
   backdrop-filter: blur(10px);
-  width:100%;
+  width: 100%;
   z-index: 2;
 
   &__container {
@@ -21,8 +21,8 @@
     &__logo {
       color: var(--theme-main-color);
       cursor: pointer;
-      font-size:2.5rem;
-      font-weight: 700;;
+      font-size: 2.5rem;
+      font-weight: 700;
       // font-style: italic;
       text-decoration: none;
     }
@@ -77,12 +77,12 @@
     opacity: 1;
     transition: all 0.5s ease;
 
-    &.active{
+    &.active {
       background: #181818;
-      left:0px;;
+      left: 0px;
     }
 
-    &__item{
+    &__item {
       border-bottom: 1px solid #282828;
       margin: 0px;
       padding: 20px 0px;
@@ -95,6 +95,4 @@
     color: var(--theme-main-color);
     padding-right: 20px;
   }
-
-
 }
