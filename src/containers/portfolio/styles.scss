@@ -58,7 +58,7 @@
               height: inherit;
               object-fit: cover;
               width: 100%;
-              object-position:center
+              object-position: center;
             }
           }
         }
@@ -73,8 +73,8 @@
           width: 100%;
           opacity: 0;
           transition: 0.5s ease;
-          background-color: var(--theme-main-color);
-          backdrop-filter: blur(50px);
+          background:var(--theme-main-color);/* fallback for old browsers */
+          background: linear-gradient(to bottom,  var(--theme-main-color), #ffffff);
 
           &__box {
             position: absolute;
@@ -101,7 +101,7 @@
               a {
                 cursor: pointer;
                 text-decoration: none;
-                display:block;
+                display: block;
                 margin-top: 15px;
                 padding: 10px 0px;
                 font-size: 2rem;
@@ -114,9 +114,9 @@
                 border-radius: 8px;
               }
 
-              a:hover{
+              a:hover {
                 transform: translateY(-2px);
-                box-shadow: 0px 1px 0px var(--theme-background-color);;
+                box-shadow: 0px 1px 0px var(--theme-background-color);
               }
             }
           }
