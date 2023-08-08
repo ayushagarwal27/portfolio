@@ -9,6 +9,7 @@ const links = [
   { label: 'About me', to: '/about' },
   { label: 'Skills', to: '/skills' },
   { label: 'Portfolio', to: '/portfolio' },
+  {  label: 'Blog',to: 'https://medium.com/@ayushagarwal.dev', type: 'redirect', },
   {
     label: 'Contact',
     to: 'mailto:ayushagarwal.dev@gmail.com',
