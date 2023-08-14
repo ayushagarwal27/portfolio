@@ -1,7 +1,8 @@
 import React from 'react';
 import { BsInfoCircleFill } from 'react-icons/bs';
 import { SiNextdotjs, SiThreedotjs } from 'react-icons/si';
-import { FaReact, FaMobile } from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa';
+import { BiLogoRedux } from 'react-icons/bi';
 import { Animate } from 'react-simple-animate';
 import PageHeader from '../../components/pageHeaderContent';
 import './styles.scss';
@@ -98,10 +99,10 @@ const About = () => {
                 <FaReact color='var(--theme-main-color)' size={60} />
               </div>
               <div>
-                <SiNextdotjs color='var(--theme-main-color)' size={60} />
+                <BiLogoRedux color='var(--theme-main-color)' size={62} />
               </div>
               <div>
-                <FaMobile color='var(--theme-main-color)' size={60} />
+                <SiNextdotjs color='var(--theme-main-color)' size={60} />
               </div>
               <div>
                 <SiThreedotjs color='var(--theme-main-color)' size={60} />

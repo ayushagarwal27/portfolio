@@ -11,7 +11,7 @@ export const skillsData = [
         percentage: '70',
       },
       {
-        skillName: 'REACT NATIVE',
+        skillName: 'REACT THREE FIBER',
         percentage: '60',
       },
       
