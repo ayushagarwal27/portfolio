@@ -4,6 +4,7 @@ import PageHeader from '../../components/pageHeaderContent';
 import hauntedHouse from '../../images/haunted-house.png';
 import footballClub from '../../images/football-club.png';
 import threeJsProfile from '../../images/threejs-profile.png';
+import threeJsGame from '../../images/game.png';
 import appleReDesign from '../../images/apple-redesign.png';
 import whiteboard from '../../images/whiteboard.png';
 import spotify from '../../images/spotify.png';
@@ -51,6 +52,13 @@ const portfolioData = [
     image: threeJsProfile,
     link: 'https://ayush-threejs-profile.vercel.app/',
     code: 'https://github.com/ayushagarwal27/threejs-first-project',
+  },
+  {
+    id: 3,
+    name: 'ThreeJS Game - R3F',
+    image: threeJsGame,
+    link: 'https://threejs-game-amber.vercel.app/',
+    code: 'https://github.com/ayushagarwal27/3D-Game-R3F',
   },
 ];
 
