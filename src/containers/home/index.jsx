@@ -25,7 +25,7 @@ const Home = () => {
           <h1>
             Hello, I'm Ayush
             <br />
-            Front end developer
+            Full stack developer
           </h1>
           {/* <p>I develop, responsive web apps</p> */}
         </div>

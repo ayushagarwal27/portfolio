@@ -1,8 +1,8 @@
 import React from 'react';
 import { BsInfoCircleFill } from 'react-icons/bs';
-import { SiNextdotjs, SiThreedotjs } from 'react-icons/si';
+import { SiNextdotjs, SiSpringboot } from 'react-icons/si';
+import { BiLogoSpringBoot } from "react-icons/bi";
 import { FaReact } from 'react-icons/fa';
-import { BiLogoRedux } from 'react-icons/bi';
 import { Animate } from 'react-simple-animate';
 import PageHeader from '../../components/pageHeaderContent';
 import './styles.scss';
@@ -39,7 +39,7 @@ const personalDetails = [
 ];
 
 const jobSummary =
-  'Creative and independent Front End Developer with experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about aesthetics and UI design.';
+  'Resourceful and self-reliant Full Stack Developer with a passion for crafting seamless user experiences by integrating design aesthetics with robust programming skills. Proficient in backend and frontend technologies. Dedicated to delivering efficient website solutions through proactive feature optimization and meticulous debugging.';
 
 const About = () => {
   return (
@@ -57,7 +57,7 @@ const About = () => {
             start={{ transform: `translateX(-900px)` }}
             end={{ transform: `translatex(0px)` }}
           >
-            <h3>Frontend Developer</h3>
+            <h3>Full stack Developer</h3>
             <p>{jobSummary}</p>
           </Animate>
           <Animate
@@ -96,16 +96,16 @@ const About = () => {
           >
             <div className='about__content__servicesWrapper__innerContent'>
               <div>
-                <FaReact color='var(--theme-main-color)' size={60} />
+                <FaReact color='var(--theme-main-color)' size={62} />
               </div>
               <div>
-                <BiLogoRedux color='var(--theme-main-color)' size={62} />
+                <BiLogoSpringBoot color='var(--theme-main-color)' size={62} />
               </div>
               <div>
                 <SiNextdotjs color='var(--theme-main-color)' size={60} />
               </div>
               <div>
-                <SiThreedotjs color='var(--theme-main-color)' size={60} />
+                <SiSpringboot color='var(--theme-main-color)' size={60} />
               </div>
             </div>
           </Animate>

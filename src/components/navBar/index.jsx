@@ -9,7 +9,11 @@ const links = [
   { label: 'About me', to: '/about' },
   { label: 'Skills', to: '/skills' },
   { label: 'Portfolio', to: '/portfolio' },
-  {  label: 'Blog',to: 'https://medium.com/@ayushagarwal.dev', type: 'redirect', },
+  {
+    label: 'Blog',
+    to: 'https://medium.com/@ayushagarwal.dev',
+    type: 'redirect',
+  },
   {
     label: 'Contact',
     to: 'mailto:ayushagarwal.dev@gmail.com',
@@ -17,7 +21,7 @@ const links = [
   },
   {
     label: 'Resume',
-    to: 'https://drive.google.com/file/d/1uRFfaSY7dqtVM1USsDf_-gtfnbcKd6Dz/view?usp=sharing',
+    to: 'https://drive.google.com/file/d/1l9vMHuVJLtGdi_Lk5uIlHXfuwPqPeJGm/view',
     type: 'redirect',
   },
 ];

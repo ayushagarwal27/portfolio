@@ -7,17 +7,10 @@ import threeJsProfile from '../../images/threejs-profile.png';
 import threeJsGame from '../../images/game.png';
 import appleReDesign from '../../images/apple-redesign.png';
 import whiteboard from '../../images/whiteboard.png';
-import spotify from '../../images/spotify.png';
 import './styles.scss';
+import ProgressiveImage from '../../components/ProgressiveImage';
 
 const portfolioData = [
-  {
-    id: 2,
-    name: 'Spotify Clone',
-    image: spotify,
-    link: 'https://spotify-clone-nextjs-13-4.vercel.app/',
-    code: 'https://github.com/ayushagarwal27/spotify-clone-nextjs-13.4',
-  },
   {
     id: 1,
     name: 'Canvas Whiteboard',
@@ -43,15 +36,15 @@ const portfolioData = [
     id: 3,
     name: 'Haunted House',
     image: hauntedHouse,
-    link: 'https://haunted-house-steel-sigma.vercel.app/',
+    link: 'https://haunted-house-three-js-gold.vercel.app/',
     code: 'https://github.com/ayushagarwal27/Haunted-House-ThreeJS',
   },
   {
     id: 3,
     name: 'ThreeJS Profile',
     image: threeJsProfile,
-    link: 'https://ayush-threejs-profile.vercel.app/',
-    code: 'https://github.com/ayushagarwal27/threejs-first-project',
+    link: 'https://3-d-portfolio-r3-f-three-js.vercel.app/',
+    code: 'https://github.com/ayushagarwal27/3D-Portfolio---R3F-ThreeJS',
   },
   {
     id: 3,
@@ -125,7 +118,7 @@ const Portfolio = () => {
                   href={item.link}
                   className='portfolio__content__cards__item__image-wrapper__link'
                 >
-                  <img src={item.image} alt={item.name} />
+                  <ProgressiveImage src={item.image} alt={item.name} />
                 </div>
               </div>
               <div className='overlay'>

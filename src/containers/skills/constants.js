@@ -1,6 +1,6 @@
 export const skillsData = [
   {
-    label: 'FRONTEND FRAMEWORK',
+    label: 'LIBRARIES & FRAMEWORK',
     data: [
       {
         skillName: 'REACT',
@@ -8,7 +8,11 @@ export const skillsData = [
       },
       {
         skillName: 'NEXT.JS',
-        percentage: '70',
+        percentage: '85',
+      },
+      {
+        skillName: 'SPRING BOOT',
+        percentage: '80',
       },
       {
         skillName: 'REACT THREE FIBER',
@@ -26,7 +30,11 @@ export const skillsData = [
       },
       {
         skillName: 'TYPESCRIPT',
-        percentage: '75',
+        percentage: '85',
+      },
+      {
+        skillName: 'JAVA',
+        percentage: '85',
       },
       {
         skillName: 'REDUX',
@@ -42,12 +50,16 @@ export const skillsData = [
         percentage: '85',
       },
       {
+        skillName: 'Tailwind CSS',
+        percentage: '75',
+      },
+      {
         skillName: 'Styled Components',
         percentage: '75',
       },
       {
         skillName: 'THREE.JS',
-        percentage: '50',
+        percentage: '60',
       }
     ],
   },
