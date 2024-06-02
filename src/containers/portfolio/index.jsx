@@ -4,6 +4,7 @@ import PageHeader from '../../components/pageHeaderContent';
 import hauntedHouse from '../../images/haunted-house.png';
 import footballClub from '../../images/football-club.png';
 import threeJsProfile from '../../images/threejs-profile.png';
+import jiraCLone from '../../images/jira-clone.png'
 import threeJsGame from '../../images/game.png';
 import appleReDesign from '../../images/apple-redesign.png';
 import whiteboard from '../../images/whiteboard.png';
@@ -11,6 +12,13 @@ import './styles.scss';
 import ProgressiveImage from '../../components/ProgressiveImage';
 
 const portfolioData = [
+  {
+    id: 2,
+    name: 'Jira Clone',
+    image: jiraCLone,
+    link: 'https://jira-clone-next-js.vercel.app/',
+    code: 'https://github.com/ayushagarwal27/jira_clone_nextJS',
+  },
   {
     id: 1,
     name: 'Canvas Whiteboard',
