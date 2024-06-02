@@ -8,10 +8,18 @@ import jiraCLone from '../../images/jira-clone.png'
 import threeJsGame from '../../images/game.png';
 import appleReDesign from '../../images/apple-redesign.png';
 import whiteboard from '../../images/whiteboard.png';
+import geniusHive from '../../images/geniushive.png';
 import './styles.scss';
 import ProgressiveImage from '../../components/ProgressiveImage';
 
 const portfolioData = [
+  {
+   id: 2,
+   name: 'Genius Hive AI',
+   image: geniusHive,
+   link: 'https://www.geniushive.me/',
+   code: 'https://github.com/ayushagarwal27/GeniusHiveAI-frontend',
+ },
   {
     id: 2,
     name: 'Jira Clone',
