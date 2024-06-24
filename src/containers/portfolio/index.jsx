@@ -9,10 +9,18 @@ import threeJsGame from '../../images/game.png';
 import appleReDesign from '../../images/apple-redesign.png';
 import whiteboard from '../../images/whiteboard.png';
 import geniusHive from '../../images/geniushive.png';
+import aiBud from '../../images/aibud.webp'
 import './styles.scss';
 import ProgressiveImage from '../../components/ProgressiveImage';
 
 const portfolioData = [
+  {
+    id: 2,
+    name: 'Ai Bud',
+    image: aiBud,
+    link: 'https://www.aibud.in/',
+    // code: 'https://github.com/ayushagarwal27/GeniusHiveAI-frontend',
+  },
   {
    id: 2,
    name: 'Genius Hive AI',
@@ -145,9 +153,9 @@ const Portfolio = () => {
                       <a href={item.link} target='_blank' rel='noreferrer'>
                         Visit
                       </a>
-                      <a href={item.code} target='_blank' rel='noreferrer'>
+                    {item.code &&  <a href={item.code} target='_blank' rel='noreferrer'>
                         Code
-                      </a>
+                      </a>}
                     </div>
                   </div>
                 )}
