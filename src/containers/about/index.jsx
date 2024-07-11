@@ -1,7 +1,8 @@
 import React from 'react';
 import { BsInfoCircleFill } from 'react-icons/bs';
-import { SiNextdotjs, SiSpringboot } from 'react-icons/si';
-import { BiLogoSpringBoot } from "react-icons/bi";
+import {SiNextdotjs,  SiPostgresql} from 'react-icons/si';
+import { IoLogoNodejs } from "react-icons/io5";
+import { BiLogoPostgresql } from "react-icons/bi";
 import { FaReact } from 'react-icons/fa';
 import { Animate } from 'react-simple-animate';
 import PageHeader from '../../components/pageHeaderContent';
@@ -96,16 +97,16 @@ const About = () => {
           >
             <div className='about__content__servicesWrapper__innerContent'>
               <div>
-                <FaReact color='var(--theme-main-color)' size={62} />
+                <FaReact color='var(--theme-main-color)' size={66} />
               </div>
               <div>
-                <BiLogoSpringBoot color='var(--theme-main-color)' size={62} />
+                <SiNextdotjs color='var(--theme-main-color)' size={54} />
               </div>
               <div>
-                <SiNextdotjs color='var(--theme-main-color)' size={60} />
+                <IoLogoNodejs color='var(--theme-main-color)' size={68} />
               </div>
               <div>
-                <SiSpringboot color='var(--theme-main-color)' size={60} />
+                <BiLogoPostgresql color='var(--theme-main-color)' size={66} />
               </div>
             </div>
           </Animate>

@@ -11,7 +11,7 @@ export const skillsData = [
         percentage: '85',
       },
       {
-        skillName: 'SPRING BOOT',
+        skillName: 'NodeJS',
         percentage: '80',
       },
       {
