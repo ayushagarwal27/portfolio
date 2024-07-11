@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsInfoCircleFill } from 'react-icons/bs';
-import {SiNextdotjs,  SiPostgresql} from 'react-icons/si';
+import {SiNextdotjs} from 'react-icons/si';
 import { IoLogoNodejs } from "react-icons/io5";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaReact } from 'react-icons/fa';
