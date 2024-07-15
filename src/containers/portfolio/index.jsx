@@ -12,6 +12,7 @@ import geniusHive from '../../images/geniushive.png';
 import aiBud from '../../images/aibud.webp'
 import './styles.scss';
 import ProgressiveImage from '../../components/ProgressiveImage';
+import loadingImg from '../../images/loadingImg.png'
 
 const portfolioData = [
   {
@@ -138,12 +139,14 @@ const Portfolio = () => {
               onMouseLeave={() => handleHover(null)}
             >
               <div className='portfolio__content__cards__item__image-wrapper'>
-                <div
+                <a
                   href={item.link}
                   className='portfolio__content__cards__item__image-wrapper__link'
                 >
-                  <ProgressiveImage src={item.image} alt={item.name} />
-                </div>
+                  <ProgressiveImage src={item.image} alt={item.name}  height={'100%'}
+                                    placeholderImg={loadingImg}
+                                    width={'100%'} />
+                </a>
               </div>
               <div className='overlay'>
                 {idx === hoveredValue && (
