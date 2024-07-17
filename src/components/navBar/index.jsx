@@ -21,7 +21,7 @@ const links = [
   },
   {
     label: 'Resume',
-    to: 'https://drive.google.com/file/d/1l9vMHuVJLtGdi_Lk5uIlHXfuwPqPeJGm/view',
+    to: 'https://drive.google.com/file/d/1XW6RfSXoHKIk_YFEcmNFZlF6YoiI4AHi/view?usp=sharing',
     type: 'redirect',
   },
 ];
