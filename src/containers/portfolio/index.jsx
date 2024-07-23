@@ -50,13 +50,13 @@ const portfolioData = [
     link: 'https://football-club-546ab.web.app/',
     code: 'https://github.com/ayushagarwal27/Manchester-City-React',
   },
-  {
-    id: 1,
-    name: 'Apple Re-design',
-    image: appleReDesign,
-    link: 'https://ayushagarwal27.github.io/Apple-Website/',
-    code: 'https://github.com/ayushagarwal27/Apple-Website',
-  },
+  // {
+  //   id: 1,
+  //   name: 'Apple Re-design',
+  //   image: appleReDesign,
+  //   link: 'https://ayushagarwal27.github.io/Apple-Website/',
+  //   code: 'https://github.com/ayushagarwal27/Apple-Website',
+  // },
   {
     id: 3,
     name: 'Haunted House',
