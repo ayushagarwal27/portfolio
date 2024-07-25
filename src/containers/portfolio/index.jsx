@@ -6,7 +6,7 @@ import footballClub from '../../images/football-club.png';
 import threeJsProfile from '../../images/threejs-profile.png';
 import jiraCLone from '../../images/jira-clone.png'
 import threeJsGame from '../../images/game.png';
-import appleReDesign from '../../images/apple-redesign.png';
+// import appleReDesign from '../../images/apple-redesign.png';
 import whiteboard from '../../images/whiteboard.png';
 import geniusHive from '../../images/geniushive.png';
 import aiBud from '../../images/aibud.webp'
