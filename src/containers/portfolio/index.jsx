@@ -20,7 +20,7 @@ const portfolioData = [
     name: 'Ai Bud',
     image: aiBud,
     link: 'https://www.aibud.in/',
-    // code: 'https://github.com/ayushagarwal27/GeniusHiveAI-frontend',
+    code: 'https://github.com/ayushagarwal27/aibud',
   },
   {
    id: 2,
@@ -36,20 +36,20 @@ const portfolioData = [
     link: 'https://jira-clone-next-js.vercel.app/',
     code: 'https://github.com/ayushagarwal27/jira_clone_nextJS',
   },
-  {
-    id: 1,
-    name: 'Canvas Whiteboard',
-    image: whiteboard,
-    link: 'https://whitebaord.netlify.app/',
-    code: 'https://github.com/ayushagarwal27/Whiteboard',
-  },
-  {
-    id: 2,
-    name: 'Manchester City',
-    image: footballClub,
-    link: 'https://football-club-546ab.web.app/',
-    code: 'https://github.com/ayushagarwal27/Manchester-City-React',
-  },
+  // {
+  //   id: 1,
+  //   name: 'Canvas Whiteboard',
+  //   image: whiteboard,
+  //   link: 'https://whitebaord.netlify.app/',
+  //   code: 'https://github.com/ayushagarwal27/Whiteboard',
+  // },
+  // {
+  //   id: 2,
+  //   name: 'Manchester City',
+  //   image: footballClub,
+  //   link: 'https://football-club-546ab.web.app/',
+  //   code: 'https://github.com/ayushagarwal27/Manchester-City-React',
+  // },
   // {
   //   id: 1,
   //   name: 'Apple Re-design',
